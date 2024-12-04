@@ -3,6 +3,32 @@
 ## Overview
 This is a Peer-to-Peer (P2P) File Sharing application built in Python, featuring user authentication via SQLite and a comprehensive file sharing system with multiple functionalities.
 
+## Screenshots
+
+### Directory Structure
+![Directory Structure](screenshots/directory_structure.jpeg)
+
+### Login Screen
+![Login Screen](screenshots/login_screen.png)
+
+### Main Menu
+![Main Menu](screenshots/main_menu.png)
+
+### File Upload
+![File Upload](screenshots/file_upload.png)
+
+### File Search
+![File Search](screenshots/file_search.png)
+
+### Download Process
+![Download Process](screenshots/download_process.png)
+
+### List All Files
+![List All Files](screenshots/list_all_files.png)
+
+### Shutdown Confirmation
+![Shutdown Confirmation](screenshots/shutdown_confirmation.png)
+
 ## Features
 - User Authentication (Login/Signup)
 - RFC (Request for Comments) File Sharing
@@ -25,7 +51,7 @@ This is a Peer-to-Peer (P2P) File Sharing application built in Python, featuring
 
 ## Project Structure
 ```
-p2p-file-sharing/
+P2P_FileSharingSystem/
 │
 ├── server.py            # Main server implementation
 ├── client.py            # Main client implementation
@@ -39,13 +65,14 @@ p2p-file-sharing/
 
 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/p2p-file-sharing.git
-cd p2p-file-sharing
+git clone https://github.com/deepanshi211/P2P_FileSharingSystem.git
+cd P2P_FileSharingSystem
 ```
 
 2. Install Dependencies
 ```bash
-# No external dependencies required
+# No additional dependencies required
+# Ensure you have Python 3.7+ installed
 ```
 
 3. Run the Server
@@ -72,26 +99,6 @@ python client.py
 4. **Download**: Download files from peers
 5. **Shut Down**: Exit the application
 
-## Screenshots
-
-### Directory Structure
-![Directory Structure](screenshots/directory_structure.jpeg)
-
-### Login Screen
-![Login Screen](screenshots/login_screen.png)
-
-### Main Menu
-![Main Menu](screenshots/main_menu.png)
-
-### File Upload
-![File Upload](screenshots/file_upload.png)
-
-### File Search
-![File Search](screenshots/file_search.png)
-
-### Download Process
-![Download Process](screenshots/download_process.png)
-
 ## Security Notes
 - Passwords are stored in SQLite database
 - Basic authentication mechanism
@@ -104,14 +111,26 @@ python client.py
 4. Push to the branch
 5. Create a new Pull Request
 
-## Learning Outcomes
+## Project Conclusion
+
+### Learning Outcomes
 This Peer-to-Peer File Sharing project serves as an excellent demonstration of distributed systems principles, showcasing:
+- Practical implementation of socket programming
+- User authentication mechanisms
+- Distributed file discovery and sharing
+- Concurrent network communication using threading
 
-Practical implementation of socket programming
-User authentication mechanisms
-Distributed file discovery and sharing
-Concurrent network communication using threading
-
-## Reflection
+### Reflection
 This project provides a foundational understanding of how peer-to-peer networks operate, demonstrating the power of decentralized file-sharing systems. It highlights the importance of network programming, concurrent processing, and distributed system design.
+
 By breaking down complex networking concepts into manageable components, this application serves as both a learning tool and a proof of concept for distributed file-sharing technologies.
+
+## Demo Video
+[![P2P File Sharing System Demo](https://img.youtube.com/vi/Nq_jHiZL_L4/0.jpg)](https://youtu.be/Nq_jHiZL_L4?si=TPDELcCtJhgK92jE)
+
+### Video Walkthrough
+- Full demonstration of the P2P File Sharing application
+- Showcases user authentication process
+- Detailed explanation of file upload and download mechanisms
+- Illustrates peer discovery and file sharing functionality
+- Walkthrough of main menu and application workflow
