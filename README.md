@@ -75,7 +75,7 @@ python client.py
 ## Screenshots
 
 ### Directory Structure
-![Directory Structure](screenshots/directory_structure.png)
+![Directory Structure](screenshots/directory_structure.jpeg)
 
 ### Login Screen
 ![Login Screen](screenshots/login_screen.png)
